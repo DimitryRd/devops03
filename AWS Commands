@@ -1,0 +1,6 @@
+aws configure
+aws s3 ls
+aws iam list-instance-profiles-for-role --role-name Here-USER
+aws iam list-instance-profiles-for-role
+aws-adfs login --adfs-host=xxxxxxx  --profile=auth --session-duration 28800 --no-sspi --authfile=~/.aws/auth --role-arn=arn:aws:iam:xxxxxx:assumed-role/xxxxR/rudakov@HERE
+aws sts get-caller-identity
